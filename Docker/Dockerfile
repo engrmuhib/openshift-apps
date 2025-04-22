@@ -1,4 +1,4 @@
-FROM quay.io/centos7/httpd-24-centos7:2.4
+FROM default-route-openshift-image-registry.apps-crc.testing/images/hello-world-nginx:latest
 LABEL maintainer="mhb.malik85@gmail.com"
 LABEL version="1.0"
 COPY index.html /var/www/html
